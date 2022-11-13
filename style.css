@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1); /*scale (0) - take away all view*/
+  /*   transition: 100ms ease-in-out; */
+  display: block;
+  margin: auto;
+  padding: 2em;
+  border: 5px solid rgb(26, 101, 148);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: rgb(9, 44, 71);
+  width: 25em;
+  max-width: 80%;
+}
+
+h2,
+h3 {
+  color: azure;
+}
+p {
+  color: azure;
+}
+#userInput {
+  width: 25%;
+  height: 2em;
+}
+
+button {
+  cursor: pointer;
+}
